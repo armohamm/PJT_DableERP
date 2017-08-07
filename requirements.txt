@@ -1,0 +1,7 @@
+django
+django-storages
+boto3
+PyMySQL
+Pillow
+bs4
+googletrans
