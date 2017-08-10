@@ -6,8 +6,8 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS += ['storages']
 
-STATICFILES_STORAGE = 'transmedia.storages.StaticS3Boto3Storage'
-DEFAULT_FILE_STORAGE = 'transmedia.storages.MediaS3Boto3Storage'
+STATICFILES_STORAGE = 'DableERP.storages.StaticS3Boto3Storage'
+DEFAULT_FILE_STORAGE = 'DableERP.storages.MediaS3Boto3Storage'
 
 AWS_ACCESS_KEY_ID = 'xx'
 AWS_SECRET_ACCESS_KEY = 'xx'
